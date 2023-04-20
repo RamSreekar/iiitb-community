@@ -5,3 +5,9 @@ exports.getAllAnnouncements = async () => {
 
     return announcements;
 }
+
+exports.getAnnouncementById = async (announcementId) => {
+    const requiredAnnouncement = await Announcements.findById(announcementId);
+
+    return requiredAnnouncement;
+}

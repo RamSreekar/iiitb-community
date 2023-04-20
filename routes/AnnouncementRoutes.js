@@ -6,5 +6,7 @@ const router = express.Router();
 
 router.get("/all", announcementController.getAllAnnouncements);
 
+router.get("/:announcementId", announcementController.getAnnouncementById);
+
 module.exports = router;
 
