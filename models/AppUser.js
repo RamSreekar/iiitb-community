@@ -17,6 +17,17 @@ const appUserSchema = new mongoose.Schema({
     type: Array,
     default: [],
   },
+}, {
+  toJSON: {
+    transform: function (doc, ret) {
+      var fieldsToDelete = ["pwd", "refToken", "__v"];
+      fieldsToDelete.forEach(field => {
+        delete ret[field];
+      });
+      
+      return ret;
+    }
+  }
 });
 
 module.exports = mongoose.model("User", appUserSchema);
