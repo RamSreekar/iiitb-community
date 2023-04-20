@@ -1,7 +1,9 @@
-const express = require("express")
-const app = express() 
+const express = require("express");
+const app = express();
 
-const database = require("./configs/DatabaseConfig")
+app.use(express.json());
+
+const database = require("./configs/DatabaseConfig");
 
 const userRouter = require("./routes/UserRoutes");
 app.use("/users", userRouter);

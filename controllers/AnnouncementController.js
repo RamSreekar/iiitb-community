@@ -22,5 +22,16 @@ exports.getAnnouncementById = async (req, res) => {
     } catch(err) {
         res.status(500).json({"message" : "Invalid ObjectId: userId"});
     }
+}
 
+exports.postAnnouncement = async (req, res) => {
+    try {
+        const announcement = req.body;
+        console.log(announcement);
+        await announcementService.postAnnouncement(announcement);
+
+        res.status(200).json({"message" : "Announcement posted!"});
+    } catch(err) {
+        res.status(500).json(err);
+    }
 }

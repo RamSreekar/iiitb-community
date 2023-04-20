@@ -7,20 +7,20 @@ const announcementSchema = new mongoose.Schema({
     },
     className: {
         type: String,
-        required: true,
+        required: true
     },
     author: {
         type: String,
-        required: true,
+        required: true
     },
     timestamp: {
         type: String,
         required: true,
-        default: Date.now,
+        default: Date.now
     },
     content: {
         type: String,
-        required: true,
+        required: true
     },
     imageUrl: {
         type: String

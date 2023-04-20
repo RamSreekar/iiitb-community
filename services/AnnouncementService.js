@@ -11,3 +11,9 @@ exports.getAnnouncementById = async (announcementId) => {
 
     return requiredAnnouncement;
 }
+
+exports.postAnnouncement = async (req) => {
+    const announcement = new Announcements(req);
+    
+    await announcement.save();
+}
