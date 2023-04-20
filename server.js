@@ -6,10 +6,15 @@ const database = require("./configs/DatabaseConfig")
 const userRouter = require("./routes/UserRoutes");
 app.use("/users", userRouter);
 
+const announcementRouter = require("./routes/AnnouncementRoutes");
+app.use("/announcements", announcementRouter);
+
 app.get("", (request, response) => {
     response.status(200).send("<h1>Server!</h1>")
 })
 
-app.listen(3003, () => {
-    console.log("Server running!")
+const port = 3003;
+
+app.listen(port, () => {
+    console.log("Server running on port: "+port);
 }) 

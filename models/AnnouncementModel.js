@@ -28,6 +28,17 @@ const announcementSchema = new mongoose.Schema({
     link: {
         type: String
     }
+}, {
+    toJSON : {
+        transform : function(doc, ret) {
+            var fieldsToDelete = ["__v"];
+            fieldsToDelete.forEach(field => {
+                delete ret[field];
+            });
+
+            return ret;
+        }
+    }
 });
 
 module.exports = mongoose.model("Announcement", announcementSchema);
