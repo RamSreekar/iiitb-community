@@ -6,7 +6,7 @@ exports.getUsers = async (req, res, next) => {
     res.status(200).json(users);
   } 
   catch (err) {
-    next(err);
+    res.status(500).json(err);
   }
 };
 
