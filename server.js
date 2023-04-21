@@ -11,6 +11,9 @@ app.use("/users", userRouter);
 const announcementRouter = require("./routes/AnnouncementRoutes");
 app.use("/announcements", announcementRouter);
 
+const opportunityRouter = require("./routes/OpportunityRoutes");
+app.use("/opportunities", opportunityRouter);
+
 app.get("", (request, response) => {
     response.status(200).send("<h1>Server!</h1>")
 })
@@ -18,5 +21,5 @@ app.get("", (request, response) => {
 const port = 3003;
 
 app.listen(port, () => {
-    console.log("Server running on port: "+port);
+    console.log(`Server running on port: ${port}`);
 }) 
