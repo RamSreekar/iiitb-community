@@ -5,3 +5,9 @@ exports.getAllOpportunities = async () => {
 
     return opportunities;
 }
+
+exports.getOpportunityById = async (opportunityId) => {
+    const requiredOpportunity = await Opportunities.findById(opportunityId);
+
+    return requiredOpportunity;
+}
