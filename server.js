@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.json());
 
-const database = require("./configs/DatabaseConfig");
+const database = require("./configs/database.config");
 
 const userRouter = require("./routes/UserRoutes");
 app.use("/users", userRouter);
