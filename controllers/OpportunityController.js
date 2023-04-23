@@ -6,7 +6,7 @@ exports.getAllOpportunities = async (req, res) => {
 
         res.status(200).json(opportunities);
     } catch(err) {
-        res.status(500).json(err);
+        res.status(500).json({"error": err.name , "message" : err.message});
     }
 }
 
@@ -17,9 +17,9 @@ exports.getOpportunityById = async (req, res) => {
 
         if(requiredOpportunity == null) 
             res.status(404).json({"message" : "Opportunity doesn't exist with given Id!"});
-
-        res.status(200).json(requiredOpportunity);
+        else 
+            res.status(200).json(requiredOpportunity);
     } catch(err) {
-        res.status(500).json(err);
+        res.status(500).json({"error": err.name , "message" : err.message});
     }
 }
