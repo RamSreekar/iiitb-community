@@ -23,3 +23,14 @@ exports.getOpportunityById = async (req, res) => {
         res.status(500).json({"error": err.name , "message" : err.message});
     }
 }
+
+exports.postOpportunity =  async (req, res, next) => {
+    try {
+        const opportunitiy = req.body;         
+        await opportunityService.postOpportunity(opportunitiy);
+        res.status(200).json({"message" : "Opportunitiy created!"});
+    } 
+    catch (err) {
+      res.status(500).json({"error": err.name , "message" : err.message});
+    }
+  };

@@ -11,3 +11,9 @@ exports.getOpportunityById = async (opportunityId) => {
 
     return requiredOpportunity;
 }
+
+exports.postOpportunity = async (req) => {
+    const opportunitiy = new Opportunities(req);
+  
+    await opportunitiy.save();
+  }
