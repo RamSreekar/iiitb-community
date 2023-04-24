@@ -1,3 +1,4 @@
 node_modules/
 .env
 api-testing.rest
+api-logs.log
