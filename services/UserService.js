@@ -1,4 +1,4 @@
-const User = require('../models/UserModel');
+const User = require('../models/UserModel'); 
 
 exports.getAllUsers = async () => {
   const users = await User.find({});
@@ -8,6 +8,12 @@ exports.getAllUsers = async () => {
 
 exports.getUserById = async (userId) => {
   const requiredUser = await User.findById(userId);
-
+ 
   return requiredUser;
 };
+
+exports.createUser = async (req) => {
+  const user = new User(req);
+
+  await user.save();
+}

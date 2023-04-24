@@ -14,6 +14,9 @@ app.use(urlLogger);
 
 const database = require("./configs/database.config");
 
+const authRouter = require("./routes/AuthRoutes");
+app.use("/auth", authRouter);
+
 const userRouter = require("./routes/UserRoutes");
 app.use("/users", userRouter);
 
