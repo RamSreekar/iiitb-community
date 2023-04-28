@@ -31,7 +31,7 @@ app.get("", (request, response) => {
 })
 
 
-const port = 3003;
+const port = 3333;
 
 app.listen(port, () => {
     logger.info(`Server running on port: ${port}`);
