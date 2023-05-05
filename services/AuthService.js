@@ -1,7 +1,8 @@
 const User = require('../models/UserModel'); 
 const userService = require("../services/UserService");
+const jwtHelper = require("../security/JwtHelper");
+
 const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
 
 require("dotenv").config();
 
@@ -25,17 +26,8 @@ exports.register = async (user) => {
 exports.login = async (req) => {
     return new Promise(async (resolve, reject) => {
         const userEmail = req.email; 
-        const jwtSecret = process.env.JWT_SECRET;
 
-        const token = jwt.sign({ email: userEmail } , 
-                                jwtSecret,
-                                {
-                                    expiresIn : "24h"
-                                }
-                        );
-        console.log("Token : "+token+"\n");
-
-        const existingUser = await User.findOne({ email : userEmail });
+        const existingUser = await findUserByEmail(userEmail);
 
         console.log("existingUser : ")
         console.log(existingUser);
@@ -49,7 +41,19 @@ exports.login = async (req) => {
             return;
         }
 
-        const passwordsMatching = await bcrypt.compare(existingUser.pwd, req.pwd); 
+        console.log(existingUser.pwd + "\t" + req.pwd + "\n");
+
+        var passwordsMatching;
+        try {
+            passwordsMatching = await comparePasswords(req.pwd, existingUser.pwd); 
+        }
+        catch(err) {
+            const error = new Error("bcrypt.compare not working!");
+            error.statusCode = 500;
+            reject(error);
+            return;
+        }
+
         if(!passwordsMatching) {
             console.log("Passwords not matching!");
             const error = new Error("Password incorrect!");
@@ -58,6 +62,18 @@ exports.login = async (req) => {
             reject(error);
         }
 
+        const token = jwtHelper.generateToken(userEmail);
+
+        console.log("Token : "+token+"\n");
+
         resolve({ token : token });
     })
 }
+
+findUserByEmail = async (userEmail) => {
+    return await User.findOne({ email : userEmail });
+}
+
+comparePasswords = async (requestRawPassword, actualHashedPassword) => {
+    return await bcrypt.compare(requestRawPassword, actualHashedPassword); 
+} 

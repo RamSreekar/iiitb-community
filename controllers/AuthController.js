@@ -33,8 +33,11 @@ exports.login = async (req, res) => {
 
     res.status(200).json(response);
   } catch (err) {
-    // const statusCode = err.statusCode;
+    const statusCode = err.statusCode;
 
-    res.status(401).json({ error: err.name, message: err.message });
+    if(statusCode == null) statusCode = 500;
+
+    // res.status(statusCode).json(err);
+    res.status(statusCode).json({ error: err.name, message: err.message });
   }
 } 
