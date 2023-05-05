@@ -1,5 +1,6 @@
 const userService = require("../services/UserService");
 const authService = require("../services/AuthService");
+const jwtHelper = require("../security/JwtHelper");
 
 exports.registerUser = async (req, res, next) => {
   try {
@@ -41,3 +42,14 @@ exports.login = async (req, res) => {
     res.status(statusCode).json({ error: err.name, message: err.message });
   }
 } 
+
+exports.validateToken = (req, res) => {
+  try {
+    const response = jwtHelper.validateToken(req);
+
+    next();
+  } catch (err) {
+    const status = err.statusCode;
+    res.status(statusCode).json({ error: err.name, message: err.message });
+  }
+}
