@@ -28,7 +28,7 @@ exports.postOpportunity =  async (req, res, next) => {
     try {
         const opportunitiy = req.body;         
         await opportunityService.postOpportunity(opportunitiy);
-        res.status(200).json({"message" : "Opportunitiy created!"});
+        res.status(200).json({"message" : "Opportunity created!"});
     } 
     catch (err) {
       res.status(500).json({"error": err.name , "message" : err.message});
