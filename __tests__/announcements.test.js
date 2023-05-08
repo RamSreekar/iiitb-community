@@ -135,4 +135,32 @@ describe("Announcement API", () => {
         expect(response.json).toHaveBeenCalledTimes(1);
         expect(response.json).toHaveBeenCalledWith(mockErrorResponse);
     });
+
+    test("getAnnouncementsByClassName() : should return status 200 and list all announcements with given className", async () => {
+        const request = mockRequest;
+        const response = mockResponse();
+    
+        Announcement.find.mockImplementationOnce(() => []);
+    
+        await announcementController.getAnnouncementsByClassName(request, response);
+    
+        expect(response.status).toHaveBeenCalledWith(200);
+        expect(response.json).toHaveBeenCalledTimes(1);
+        expect(response.json).toHaveBeenCalledWith([]);
+    }); 
+
+    test("getAnnouncementsByClassName() : should return status 500 and error description", async () => {
+        const request = mockRequest;
+        const response = mockResponse();
+    
+        Announcement.find.mockImplementationOnce(() => {
+            throw new Error(mockErrorResponse);
+        });
+    
+        await announcementController.getAnnouncementsByClassName(request, response);
+    
+        expect(response.status).toHaveBeenCalledWith(500);
+        expect(response.json).toHaveBeenCalledTimes(1);
+        expect(response.json).toHaveBeenCalledWith(mockErrorResponse);
+    }); 
 });
