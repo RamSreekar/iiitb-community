@@ -106,15 +106,15 @@ describe("Opportunity API", () => {
     const request = mockRequest;
     const response = mockResponse();
 
-    const announcement = new Announcement(request.body);
-    announcement.save.mockImplementationOnce();
+    const opportunity = new Opportunity(request.body);
+    opportunity.save.mockImplementationOnce();
 
     await opportunityController.postOpportunity(request, response);
 
     expect(response.status).toHaveBeenCalledWith(200);
     expect(response.json).toHaveBeenCalledTimes(1);
     expect(response.json).toHaveBeenCalledWith({
-      message: "Announcement posted!",
+      message: "Opportunity created!",
     });
   });
 
@@ -122,9 +122,9 @@ describe("Opportunity API", () => {
     const request = mockRequest;
     const response = mockResponse();
 
-    const announcement = new Announcement(request.body);
+    const opportunity = new Opportunity(request.body);
 
-    announcement.save.mockImplementationOnce(() => {
+    opportunity.save.mockImplementationOnce(() => {
       throw new Error(mockErrorResponse);
     });
 
