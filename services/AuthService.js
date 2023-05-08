@@ -66,7 +66,7 @@ exports.login = async (req) => {
 
         console.log("Token : "+token+"\n");
 
-        resolve({ token : token });
+        resolve({ token : token, userType : existingUser.userType });
     })
 }
 
