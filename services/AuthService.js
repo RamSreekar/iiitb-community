@@ -60,11 +60,10 @@ exports.login = async (req) => {
             error.statusCode = 401;
 
             reject(error);
+            return;
         }
 
         const token = jwtHelper.generateToken(userEmail);
-
-        console.log("Token : "+token+"\n");
 
         resolve({ token : token, userType : existingUser.userType });
     })

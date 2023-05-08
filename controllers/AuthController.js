@@ -2,6 +2,8 @@ const userService = require("../services/UserService");
 const authService = require("../services/AuthService");
 const jwtHelper = require("../security/JwtHelper");
 
+const cookieParser = require('cookie-parser')
+
 exports.registerUser = async (req, res, next) => {
   try {
     const user = req.body;
@@ -32,9 +34,9 @@ exports.login = async (req, res) => {
 
     const response = await authService.login(user);
 
-    res.status(200).json(response);
+    res.status(200).cookie("token", response.token).json({ userType : response.userType });
   } catch (err) {
-    const statusCode = err.statusCode;
+    var statusCode = err.statusCode;
 
     if(statusCode == null) statusCode = 500;
 
@@ -43,13 +45,16 @@ exports.login = async (req, res) => {
   }
 } 
 
-exports.validateToken = (req, res) => {
-  try {
-    const response = jwtHelper.validateToken(req);
+exports.validateToken = async (req, res, next) => {
+  jwtHelper.validateToken(req)
+    .then(() => {
+      next();
+    })
+    .catch((err) => {
+      var statusCode = err.statusCode;
 
-    next();
-  } catch (err) {
-    const status = err.statusCode;
-    res.status(statusCode).json({ error: err.name, message: err.message });
-  }
+      if(statusCode == null) statusCode = 500;
+
+      res.status(statusCode).json({ error: err.name, message: err.message });
+    });
 }
