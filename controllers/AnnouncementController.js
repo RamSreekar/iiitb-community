@@ -24,6 +24,20 @@ exports.getAnnouncementById = async (req, res) => {
     }
 }
 
+exports.getAnnouncementsByClassName = async (req, res) => {
+    try {
+        const className = req.params.className;
+        const requiredAnnouncement = await announcementService.getAnnouncementsByClassName(className);
+
+        if(requiredAnnouncement == null)
+            res.status(404).json({"message" : "Announcement don't exist with given class name!"});
+        else
+        res.status(200).json(requiredAnnouncement);
+    } catch(err) {
+        res.status(500).json({"error": err.name , "message" : err.message});
+    }
+}
+
 exports.postAnnouncement = async (req, res) => {
     try {
         const announcement = req.body;

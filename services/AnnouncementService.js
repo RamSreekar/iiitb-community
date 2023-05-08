@@ -12,6 +12,12 @@ exports.getAnnouncementById = async (announcementId) => {
     return requiredAnnouncement;
 }
 
+exports.getAnnouncementsByClassName = async (className) => {
+    const requiredAnnouncements = await Announcements.find({ className : className });
+
+    return requiredAnnouncements;
+}
+
 exports.postAnnouncement = async (req) => {
     const announcement = new Announcements(req);
     
