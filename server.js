@@ -31,6 +31,9 @@ app.use("/announcements", authController.validateToken, announcementRouter);
 const opportunityRouter = require("./routes/OpportunityRoutes");
 app.use("/opportunities", authController.validateToken, opportunityRouter);
 
+const discussionForumRouter = require("./routes/DiscussionForumRoutes");
+app.use("/discussion-forum", discussionForumRouter)
+
 app.get("", (request, response) => {
     response.status(200).send("<h1>Server!</h1>")
 })
