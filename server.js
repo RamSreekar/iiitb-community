@@ -6,11 +6,16 @@ const logger = require("./logger/index");
 const corsHeaders = require("./middlewares/CorsMiddleware");
 const urlLogger = require("./middlewares/UrlLoggingMiddleware");
 
+const cookieParser = require('cookie-parser');
+const authController = require('./controllers/AuthController')
+
 
 // Middleware
 app.use(express.json());
 app.use(corsHeaders);
 app.use(urlLogger);
+app.use(cookieParser());
+// app.use(jwtHelper.validateToken);
 
 const database = require("./configs/database.config");
 
@@ -21,10 +26,10 @@ const userRouter = require("./routes/UserRoutes");
 app.use("/users", userRouter);
 
 const announcementRouter = require("./routes/AnnouncementRoutes");
-app.use("/announcements", announcementRouter);
+app.use("/announcements", authController.validateToken, announcementRouter);
 
 const opportunityRouter = require("./routes/OpportunityRoutes");
-app.use("/opportunities", opportunityRouter);
+app.use("/opportunities", authController.validateToken, opportunityRouter);
 
 app.get("", (request, response) => {
     response.status(200).send("<h1>Server!</h1>")
