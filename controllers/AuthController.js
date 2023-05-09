@@ -34,7 +34,7 @@ exports.login = async (req, res) => {
 
     const response = await authService.login(user);
 
-    res.status(200).cookie("token", response.token).json({ userType : response.userType });
+    res.status(200).cookie("token", response.token).json({ token : response.token, userType : response.userType });
   } catch (err) {
     var statusCode = err.statusCode;
 
