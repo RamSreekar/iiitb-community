@@ -56,6 +56,6 @@ jobs:
       steps:
 
         - name: Pull Docker image
-          run : minicube start
+          run : minikube start
         - name : deployment
           run : kubectl apply -f backend_deployment
