@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const questionSchema = new mongoose.Schema({
+const discussionForumSchema = new mongoose.Schema({
     title: {
       type: String,
       required: true,
@@ -22,7 +22,6 @@ const questionSchema = new mongoose.Schema({
     },
     replies: {
       type: Object,
-      required : true,
       default: {},
     },
 }, {
@@ -38,4 +37,4 @@ const questionSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model("DiscussionForum", questionSchema);
+module.exports = mongoose.model("DiscussionForum", discussionForumSchema);
