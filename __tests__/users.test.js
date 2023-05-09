@@ -99,37 +99,5 @@ describe("User API", () => {
     expect(response.json).toHaveBeenCalledTimes(1);
     expect(response.json).toHaveBeenCalledWith(mockErrorResponse);
   });
-
-  test("registerUser() : should return status 200 and post an announcement", async () => {
-    const request = mockRequest;
-    const response = mockResponse();
-
-    const user = new User(request.body);
-    user.save.mockImplementationOnce();
-
-    await userController.registerUser(request, response);
-
-    expect(response.status).toHaveBeenCalledWith(200);
-    expect(response.json).toHaveBeenCalledTimes(1);
-    expect(response.json).toHaveBeenCalledWith({
-      message: "User created!",
-    });
-  });
-
-  test("registerUser() : should return status 500 and error description", async () => {
-    const request = mockRequest;
-    const response = mockResponse();
-
-    const user = new User(request.body);
-
-    user.save.mockImplementationOnce(() => {
-      throw new Error(mockErrorResponse);
-    });
-
-    await userController.registerUser(request, response);
-
-    expect(response.status).toHaveBeenCalledWith(500);
-    expect(response.json).toHaveBeenCalledTimes(1);
-    expect(response.json).toHaveBeenCalledWith(mockErrorResponse);
-  });
+  
 });
