@@ -19,10 +19,9 @@ jobs:
 
     steps:
 
-      - name: Pull Docker image
-        run: pwd
-#       - name: deployment
-#         run: kubectl apply -f backend_deployment.yml
+
+      - name: deployment
+        run: kubectl apply -f secret.yml
 #  build:
 #
 #    runs-on: ubuntu-latest
