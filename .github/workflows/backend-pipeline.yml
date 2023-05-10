@@ -20,9 +20,9 @@ jobs:
     steps:
 
       - name: Pull Docker image
-        run: minikube start
-      - name: deployment
-        run: kubectl apply -f backend_deployment.yml
+        run: pwd
+#       - name: deployment
+#         run: kubectl apply -f backend_deployment.yml
 #  build:
 #
 #    runs-on: ubuntu-latest
