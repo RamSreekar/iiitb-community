@@ -53,6 +53,7 @@ jobs:
 
 
   deploy:
+    needs: [ build-push-docker-Image ]
     runs-on: self-hosted
 
     steps:
