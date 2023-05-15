@@ -65,7 +65,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
+      - run: npm install
       - name: Build Docker image
         run: |
           docker build --network host \
