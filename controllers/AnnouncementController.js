@@ -1,4 +1,5 @@
 const announcementService = require("../services/AnnouncementService");
+const logger = require("../logger/index")
 
 exports.getAllAnnouncements = async (req, res) => {
     try {

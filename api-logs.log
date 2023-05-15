@@ -83,3 +83,736 @@
 12-05-2023 18:05:83  info: GET /announcements/class/DT
 12-05-2023 18:05:74  info: GET /announcements/class/HOSTEL
 12-05-2023 18:05:22  info: GET /announcements/class/General
+14-05-2023 19:05:58  info: Server running on port: 3333
+14-05-2023 19:05:02  info: Connected to database!
+14-05-2023 19:05:22  info: POST /auth/register
+14-05-2023 19:05:73  info: POST /auth/login
+14-05-2023 19:05:80  info: GET /announcements/class/General
+14-05-2023 19:05:16  info: Server running on port: 3333
+14-05-2023 19:05:55  info: Connected to database!
+14-05-2023 19:05:09  info: GET /announcements/class/General
+14-05-2023 19:05:75  info: Server running on port: 3333
+14-05-2023 19:05:19  info: Connected to database!
+14-05-2023 19:05:55  info: GET /announcements/class/General
+14-05-2023 19:05:35  info: Server running on port: 3333
+14-05-2023 19:05:76  info: Connected to database!
+14-05-2023 19:05:10  info: GET /announcements/class/General
+14-05-2023 19:05:51  info: Server running on port: 3333
+14-05-2023 19:05:94  info: Connected to database!
+14-05-2023 19:05:61  info: GET /announcements/class/General
+14-05-2023 19:05:94  info: Server running on port: 3333
+14-05-2023 19:05:35  info: Connected to database!
+14-05-2023 19:05:78  info: GET /announcements/class/General
+14-05-2023 19:05:86  info: Server running on port: 3333
+14-05-2023 19:05:28  info: Connected to database!
+14-05-2023 19:05:95  info: GET /announcements/class/General
+14-05-2023 19:05:97  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:19  info: Server running on port: 3333
+14-05-2023 19:05:61  info: Connected to database!
+14-05-2023 19:05:65  info: Server running on port: 3333
+14-05-2023 19:05:07  info: Connected to database!
+14-05-2023 19:05:55  info: POST /discussion-forum/questions/post
+14-05-2023 19:05:55  info: [object Object]
+14-05-2023 19:05:56  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:07  info: Server running on port: 3333
+14-05-2023 19:05:53  info: Connected to database!
+14-05-2023 19:05:27  info: GET /discussion-forum/questions/General
+14-05-2023 19:05:38  info: GET /discussion-forum/questions/General
+14-05-2023 19:05:41  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:46  info: Server running on port: 3333
+14-05-2023 19:05:85  info: Connected to database!
+14-05-2023 19:05:62  info: Server running on port: 3333
+14-05-2023 19:05:07  info: Connected to database!
+14-05-2023 19:05:57  info: GET /announcements/class/General
+14-05-2023 19:05:59  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:42  info: Server running on port: 3333
+14-05-2023 19:05:87  info: Connected to database!
+14-05-2023 19:05:99  info: GET /announcements/class/General
+14-05-2023 19:05:100  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:07  info: Server running on port: 3333
+14-05-2023 19:05:48  info: Connected to database!
+14-05-2023 19:05:33  info: GET /announcements/class/General
+14-05-2023 19:05:34  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:34  info: Server running on port: 3333
+14-05-2023 19:05:83  info: Connected to database!
+14-05-2023 19:05:56  info: GET /announcements/class/General
+14-05-2023 19:05:58  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:52  info: Server running on port: 3333
+14-05-2023 19:05:95  info: Connected to database!
+14-05-2023 19:05:18  info: GET /announcements/class/General
+14-05-2023 19:05:21  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:87  info: Server running on port: 3333
+14-05-2023 19:05:30  info: Connected to database!
+14-05-2023 19:05:94  info: GET /announcements/class/General
+14-05-2023 19:05:95  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:45  info: Server running on port: 3333
+14-05-2023 19:05:90  info: Connected to database!
+14-05-2023 19:05:34  info: Server running on port: 3333
+14-05-2023 19:05:78  info: Connected to database!
+14-05-2023 19:05:02  info: GET /announcements/class/General
+14-05-2023 19:05:03  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:46  info: Server running on port: 3333
+14-05-2023 19:05:90  info: Connected to database!
+14-05-2023 19:05:63  info: GET /announcements/class/General
+14-05-2023 19:05:65  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:36  info: Server running on port: 3333
+14-05-2023 19:05:78  info: Connected to database!
+14-05-2023 19:05:18  info: GET /announcements/class/General
+14-05-2023 19:05:19  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:88  info: Server running on port: 3333
+14-05-2023 19:05:28  info: Connected to database!
+14-05-2023 19:05:24  info: GET /announcements/class/General
+14-05-2023 19:05:25  info: User : admin@iiitb.ac.in
+14-05-2023 19:05:74  info: Server running on port: 3333
+14-05-2023 19:05:89  info: Server running on port: 3333
+14-05-2023 19:05:31  info: Connected to database!
+14-05-2023 19:05:60  info: Server running on port: 3333
+14-05-2023 19:05:01  info: Connected to database!
+14-05-2023 19:05:55  info: GET /announcements/class/General
+14-05-2023 19:05:57  info: User : admin@iiitb.ac.in
+14-05-2023 20:05:82  info: Server running on port: 3333
+14-05-2023 20:05:38  info: Connected to database!
+14-05-2023 20:05:97  info: Server running on port: 3333
+14-05-2023 20:05:38  info: Connected to database!
+14-05-2023 20:05:33  info: GET /announcements/class/General
+14-05-2023 20:05:34  info: User : admin@iiitb.ac.in
+14-05-2023 20:05:95  info: Server running on port: 3333
+14-05-2023 20:05:40  info: Connected to database!
+14-05-2023 20:05:34  info: GET /announcements/class/General
+14-05-2023 20:05:36  info: User : admin@iiitb.ac.in
+14-05-2023 20:05:79  info: GET /announcements/class/General
+14-05-2023 20:05:79  info: User : admin@iiitb.ac.in
+14-05-2023 20:05:84  info: Server running on port: 3333
+14-05-2023 20:05:35  info: Connected to database!
+14-05-2023 20:05:15  info: GET /announcements/class/General
+14-05-2023 20:05:16  info: User : admin@iiitb.ac.in
+14-05-2023 20:05:23  info: GET /announcements/class/General
+14-05-2023 20:05:01  info: Server running on port: 3333
+14-05-2023 20:05:46  info: Connected to database!
+14-05-2023 20:05:60  info: GET /announcements/class/General
+14-05-2023 20:05:61  info: User : admin@iiitb.ac.in
+14-05-2023 20:05:99  info: Server running on port: 3333
+14-05-2023 20:05:43  info: Connected to database!
+14-05-2023 20:05:31  info: GET /announcements/class/General
+14-05-2023 20:05:32  info: User : admin@iiitb.ac.in
+14-05-2023 20:05:29  info: GET /users/all
+14-05-2023 20:05:11  info: Server running on port: 3333
+14-05-2023 20:05:56  info: Connected to database!
+14-05-2023 20:05:45  info: GET /users/all
+14-05-2023 20:05:62  info: Server running on port: 3333
+14-05-2023 20:05:05  info: Connected to database!
+14-05-2023 20:05:94  info: GET /users/all
+14-05-2023 20:05:08  info: Server running on port: 3333
+14-05-2023 20:05:54  info: Connected to database!
+14-05-2023 20:05:89  info: Server running on port: 3333
+14-05-2023 20:05:35  info: Connected to database!
+14-05-2023 20:05:01  info: Server running on port: 3333
+14-05-2023 20:05:61  info: Connected to database!
+14-05-2023 20:05:35  info: Server running on port: 3333
+14-05-2023 20:05:74  info: Connected to database!
+14-05-2023 20:05:10  info: GET /users/all
+14-05-2023 23:05:36  info: Server running on port: 3333
+14-05-2023 23:05:79  info: Connected to database!
+15-05-2023 20:05:45  info: Server running on port: 3333
+15-05-2023 20:05:61  info: Connected to database!
+15-05-2023 21:05:57  info: GET /discussion-forum/questions/General
+15-05-2023 21:05:24  info: GET /discussion-forum/questions/General
+15-05-2023 21:05:91  info: POST /auth/register
+15-05-2023 21:05:51  info: GET /users/all
+15-05-2023 21:05:73  info: Server running on port: 3333
+15-05-2023 21:05:53  info: Connected to database!
+15-05-2023 21:05:94  info: Server running on port: 3333
+15-05-2023 21:05:48  info: Connected to database!
+15-05-2023 21:05:84  info: GET /users/all
+15-05-2023 21:05:27  info: Server running on port: 3333
+15-05-2023 21:05:84  info: Connected to database!
+15-05-2023 21:05:84  info: POST /auth/login
+15-05-2023 21:05:30  info: POST /auth/login
+15-05-2023 21:05:60  info: GET /announcements/class/General
+15-05-2023 21:05:29  info: GET /discussion-forum/questions/General
+15-05-2023 21:05:30  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:88  info: GET /opportunities/all
+15-05-2023 21:05:88  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:86  info: GET /discussion-forum/questions/General
+15-05-2023 21:05:86  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:44  info: GET /announcements/class/General
+15-05-2023 21:05:45  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:96  info: GET /discussion-forum/questions/General
+15-05-2023 21:05:97  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:86  info: POST /discussion-forum/questions/post
+15-05-2023 21:05:87  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:33  info: GET /discussion-forum/questions/General
+15-05-2023 21:05:33  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:54  info: GET /discussion-forum/question/64625d0de27d3530b62d5a33
+15-05-2023 21:05:55  info: User : faculty@iiitb.ac.in
+15-05-2023 21:05:80  info: POST /auth/register
+15-05-2023 21:05:14  info: POST /auth/login
+15-05-2023 21:05:48  info: GET /announcements/class/General
+15-05-2023 21:05:53  info: GET /discussion-forum/questions/General
+15-05-2023 21:05:54  info: User : durga@iiitb.ac.in
+15-05-2023 21:05:55  info: GET /discussion-forum/question/64625d0de27d3530b62d5a33
+15-05-2023 21:05:55  info: User : durga@iiitb.ac.in
+15-05-2023 21:05:72  info: POST /discussion-forum/reply/post
+15-05-2023 21:05:72  info: User : durga@iiitb.ac.in
+15-05-2023 21:05:27  info: GET /discussion-forum/question/64625d0de27d3530b62d5a33
+15-05-2023 21:05:27  info: User : durga@iiitb.ac.in
+15-05-2023 21:05:37  info: GET /opportunities/all
+15-05-2023 21:05:37  info: User : durga@iiitb.ac.in
+15-05-2023 21:05:27  info: POST /auth/login
+15-05-2023 21:05:49  info: GET /announcements/class/General
+15-05-2023 22:05:17  info: POST /announcements/post
+15-05-2023 22:05:17  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:48  info: GET /announcements/class/General
+15-05-2023 22:05:48  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:92  info: GET /opportunities/all
+15-05-2023 22:05:92  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:67  info: GET /announcements/class/General
+15-05-2023 22:05:67  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:08  info: GET /opportunities/all
+15-05-2023 22:05:08  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:42  info: GET /announcements/class/General
+15-05-2023 22:05:42  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:09  info: GET /announcements/class/General
+15-05-2023 22:05:09  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:93  info: GET /opportunities/all
+15-05-2023 22:05:93  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:56  info: POST /opportunities/create
+15-05-2023 22:05:57  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:72  info: GET /opportunities/all
+15-05-2023 22:05:72  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:90  info: POST /opportunities/create
+15-05-2023 22:05:90  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:81  info: GET /opportunities/all
+15-05-2023 22:05:81  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:54  info: GET /announcements/class/General
+15-05-2023 22:05:55  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:20  info: GET /announcements/class/General
+15-05-2023 22:05:20  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:15  info: GET /announcements/class/CSE
+15-05-2023 22:05:15  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:27  info: GET /announcements/class/CSE
+15-05-2023 22:05:27  info: User : faculty@iiitb.ac.in
+15-05-2023 22:05:00  info: GET /announcements/class/CSE
+15-05-2023 22:05:01  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:07  info: Server running on port: 3333
+16-05-2023 00:05:65  info: Connected to database!
+16-05-2023 00:05:70  info: Server running on port: 3333
+16-05-2023 00:05:42  info: Connected to database!
+16-05-2023 00:05:71  info: Server running on port: 3333
+16-05-2023 00:05:70  info: Connected to database!
+16-05-2023 00:05:03  info: GET /users/all
+16-05-2023 00:05:69  info: Server running on port: 3333
+16-05-2023 00:05:33  info: Connected to database!
+16-05-2023 00:05:07  info: GET /users/all
+16-05-2023 00:05:50  info: Server running on port: 3333
+16-05-2023 00:05:88  info: Connected to database!
+16-05-2023 00:05:97  info: GET /users/all
+16-05-2023 00:05:93  info: Server running on port: 3333
+16-05-2023 00:05:87  info: Connected to database!
+16-05-2023 00:05:43  info: Server running on port: 3333
+16-05-2023 00:05:65  info: Connected to database!
+16-05-2023 00:05:32  info: Server running on port: 3333
+16-05-2023 00:05:89  info: Connected to database!
+16-05-2023 00:05:45  info: GET /announcements/
+16-05-2023 00:05:80  info: POST /auth/login
+16-05-2023 00:05:76  info: GET /announcements/
+16-05-2023 00:05:77  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:48  info: Server running on port: 3333
+16-05-2023 00:05:96  info: Connected to database!
+16-05-2023 00:05:25  info: GET /announcements/
+16-05-2023 00:05:25  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:30  error: 200
+16-05-2023 00:05:22  info: Server running on port: 3333
+16-05-2023 00:05:05  info: Connected to database!
+16-05-2023 00:05:85  info: GET /announcements/
+16-05-2023 00:05:87  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:96  error: 500
+16-05-2023 00:05:64  info: Server running on port: 3333
+16-05-2023 00:05:41  info: Connected to database!
+16-05-2023 00:05:70  info: GET /announcements/
+16-05-2023 00:05:71  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:74  info: 200
+16-05-2023 00:05:13  info: Server running on port: 3333
+16-05-2023 00:05:94  info: Connected to database!
+16-05-2023 00:05:82  info: Server running on port: 3333
+16-05-2023 00:05:41  info: Connected to database!
+16-05-2023 00:05:18  info: Server running on port: 3333
+16-05-2023 00:05:65  info: Connected to database!
+16-05-2023 00:05:92  info: Server running on port: 3333
+16-05-2023 00:05:77  info: Connected to database!
+16-05-2023 00:05:22  info: Server running on port: 3333
+16-05-2023 00:05:25  info: Connected to database!
+16-05-2023 00:05:12  info: GET /announcements/
+16-05-2023 00:05:15  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:24  error: 500
+16-05-2023 00:05:25  info: Server running on port: 3333
+16-05-2023 00:05:07  info: Connected to database!
+16-05-2023 00:05:32  info: Server running on port: 3333
+16-05-2023 00:05:85  info: Connected to database!
+16-05-2023 00:05:06  info: GET /announcements/
+16-05-2023 00:05:25  info: Server running on port: 3333
+16-05-2023 00:05:13  info: Connected to database!
+16-05-2023 00:05:89  info: GET /announcements/
+16-05-2023 00:05:25  info: Server running on port: 3333
+16-05-2023 00:05:77  info: Connected to database!
+16-05-2023 00:05:07  info: GET /announcements/
+16-05-2023 00:05:67  info: Server running on port: 3333
+16-05-2023 00:05:44  info: Connected to database!
+16-05-2023 00:05:79  info: GET /announcements/
+16-05-2023 00:05:33  info: GET /announcements/
+16-05-2023 00:05:35  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:44  info: Status : 200
+16-05-2023 00:05:12  info: Server running on port: 3333
+16-05-2023 00:05:10  info: Connected to database!
+16-05-2023 00:05:55  info: GET /announcements/
+16-05-2023 00:05:79  info: Server running on port: 3333
+16-05-2023 00:05:69  info: Connected to database!
+16-05-2023 00:05:11  info: GET /announcements/
+16-05-2023 00:05:90  info: GET /announcements/
+16-05-2023 00:05:11  info: Server running on port: 3333
+16-05-2023 00:05:04  info: Connected to database!
+16-05-2023 00:05:69  info: GET /announcements/
+16-05-2023 00:05:41  info: Server running on port: 3333
+16-05-2023 00:05:11  info: Connected to database!
+16-05-2023 00:05:81  info: Server running on port: 3333
+16-05-2023 00:05:51  info: Connected to database!
+16-05-2023 00:05:22  info: Server running on port: 3333
+16-05-2023 00:05:87  info: Connected to database!
+16-05-2023 00:05:36  info: Server running on port: 3333
+16-05-2023 00:05:80  info: Connected to database!
+16-05-2023 00:05:14  info: GET /announcements/
+16-05-2023 00:05:15  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:19  info: Status : 200
+16-05-2023 00:05:47  info: Server running on port: 3333
+16-05-2023 00:05:99  info: Connected to database!
+16-05-2023 00:05:69  info: GET /announcements/
+16-05-2023 00:05:70  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:74  info: Status : 200
+16-05-2023 00:05:17  info: Server running on port: 3333
+16-05-2023 00:05:69  info: Connected to database!
+16-05-2023 00:05:50  info: Server running on port: 3333
+16-05-2023 00:05:98  info: Connected to database!
+16-05-2023 00:05:95  info: GET /announcements/
+16-05-2023 00:05:97  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:31  info: Server running on port: 3333
+16-05-2023 00:05:85  info: Connected to database!
+16-05-2023 00:05:44  info: GET /announcements/
+16-05-2023 00:05:46  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:07  info: Server running on port: 3333
+16-05-2023 00:05:71  info: Connected to database!
+16-05-2023 00:05:70  info: GET /announcements/
+16-05-2023 00:05:72  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:28  info: Server running on port: 3333
+16-05-2023 00:05:39  info: Connected to database!
+16-05-2023 00:05:68  info: GET /announcements/
+16-05-2023 00:05:69  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:17  info: Server running on port: 3333
+16-05-2023 00:05:69  info: Connected to database!
+16-05-2023 00:05:59  info: GET /announcements/
+16-05-2023 00:05:61  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:98  info: Server running on port: 3333
+16-05-2023 00:05:66  info: Connected to database!
+16-05-2023 00:05:23  info: GET /announcements/
+16-05-2023 00:05:24  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:28  info: Status :
+16-05-2023 00:05:41  info: Server running on port: 3333
+16-05-2023 00:05:50  info: Connected to database!
+16-05-2023 00:05:16  info: GET /announcements/
+16-05-2023 00:05:16  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:25  info: Status :
+16-05-2023 00:05:54  info: Server running on port: 3333
+16-05-2023 00:05:94  info: Connected to database!
+16-05-2023 00:05:82  info: GET /announcements/
+16-05-2023 00:05:82  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:88  info: Status :
+16-05-2023 00:05:91  info: Server running on port: 3333
+16-05-2023 00:05:35  info: Connected to database!
+16-05-2023 00:05:92  info: Server running on port: 3333
+16-05-2023 00:05:35  info: Connected to database!
+16-05-2023 00:05:42  info: GET /announcements/
+16-05-2023 00:05:43  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:53  info: Server running on port: 3333
+16-05-2023 00:05:16  info: Connected to database!
+16-05-2023 00:05:68  info: GET /announcements/
+16-05-2023 00:05:69  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:18  info: Server running on port: 3333
+16-05-2023 00:05:69  info: Connected to database!
+16-05-2023 00:05:88  info: GET /announcements/
+16-05-2023 00:05:91  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:05  info: Status :
+16-05-2023 00:05:72  info: Server running on port: 3333
+16-05-2023 00:05:15  info: Connected to database!
+16-05-2023 00:05:81  info: Server running on port: 3333
+16-05-2023 00:05:23  info: Connected to database!
+16-05-2023 00:05:15  info: GET /announcements/
+16-05-2023 00:05:16  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:55  info: Server running on port: 3333
+16-05-2023 00:05:02  info: Connected to database!
+16-05-2023 00:05:19  info: Server running on port: 3333
+16-05-2023 00:05:63  info: Connected to database!
+16-05-2023 00:05:32  info: GET /announcements/
+16-05-2023 00:05:34  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:44  info: Status :
+16-05-2023 00:05:97  info: GET /announcements/
+16-05-2023 00:05:98  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:02  info: Status :
+16-05-2023 00:05:08  info: GET /discussion-forum/questions/General
+16-05-2023 00:05:10  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:15  info: Status :
+16-05-2023 00:05:86  info: GET /announcements/class/General
+16-05-2023 00:05:86  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:92  info: Status :
+16-05-2023 00:05:81  info: GET /announcements/class/General
+16-05-2023 00:05:81  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:85  info: Status :
+16-05-2023 00:05:03  info: GET /announcements/class/General
+16-05-2023 00:05:04  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:09  info: Status :
+16-05-2023 00:05:91  info: GET /users/all
+16-05-2023 00:05:00  info: Status :
+16-05-2023 00:05:42  info: GET /announcements/class/General
+16-05-2023 00:05:42  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:45  info: Status :
+16-05-2023 00:05:31  info: GET /announcements/class/General
+16-05-2023 00:05:32  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:37  info: Status :
+16-05-2023 00:05:25  info: GET /announcements/class/General
+16-05-2023 00:05:25  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:32  info: Status :
+16-05-2023 00:05:30  info: GET /opportunities/all
+16-05-2023 00:05:30  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:35  info: Status :
+16-05-2023 00:05:99  info: GET /opportunities/all
+16-05-2023 00:05:100  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:03  info: Status :
+16-05-2023 00:05:55  info: GET /announcements/class/General
+16-05-2023 00:05:55  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:59  info: Status :
+16-05-2023 00:05:40  info: GET /opportunities/all
+16-05-2023 00:05:41  info: User : faculty@iiitb.ac.in
+16-05-2023 00:05:44  info: Status :
+16-05-2023 00:05:85  info: Server running on port: 3333
+16-05-2023 00:05:31  info: Connected to database!
+16-05-2023 00:05:07  info: GET /users/all
+16-05-2023 00:05:17  info: Status :
+16-05-2023 00:05:05  info: Server running on port: 3333
+16-05-2023 00:05:54  info: Connected to database!
+16-05-2023 00:05:44  info: Server running on port: 3333
+16-05-2023 00:05:95  info: Connected to database!
+16-05-2023 00:05:60  info: GET /users/all
+16-05-2023 00:05:70  info: Status :
+16-05-2023 00:05:37  info: Server running on port: 3333
+16-05-2023 00:05:92  info: Connected to database!
+16-05-2023 00:05:80  info: GET /users/all
+16-05-2023 00:05:90  info: Status :
+16-05-2023 00:05:00  info: Server running on port: 3333
+16-05-2023 00:05:54  info: Connected to database!
+16-05-2023 00:05:80  info: Server running on port: 3333
+16-05-2023 00:05:22  info: Connected to database!
+16-05-2023 00:05:45  info: GET /users/all
+16-05-2023 00:05:53  info: Status :
+16-05-2023 00:05:80  info: Server running on port: 3333
+16-05-2023 00:05:19  info: Connected to database!
+16-05-2023 00:05:53  info: GET /users/all
+16-05-2023 00:05:61  info: Status :
+16-05-2023 00:05:95  info: Server running on port: 3333
+16-05-2023 00:05:98  info: Connected to database!
+16-05-2023 00:05:56  info: GET /users/all
+16-05-2023 00:05:61  info: Status :
+16-05-2023 00:05:03  info: Server running on port: 3333
+16-05-2023 00:05:61  info: Connected to database!
+16-05-2023 00:05:61  info: GET /users/all
+16-05-2023 00:05:69  info: 200
+16-05-2023 00:05:48  info: Server running on port: 3333
+16-05-2023 00:05:100  info: Connected to database!
+16-05-2023 00:05:11  info: GET /users/all
+16-05-2023 00:05:17  info: StatusCode : 200
+16-05-2023 00:05:93  info: Server running on port: 3333
+16-05-2023 00:05:51  info: Connected to database!
+16-05-2023 00:05:18  info: GET /users/all
+16-05-2023 00:05:23  info: StatusCode : 200
+16-05-2023 00:05:87  info: Server running on port: 3333
+16-05-2023 00:05:33  info: Connected to database!
+16-05-2023 00:05:20  info: GET /users/all
+16-05-2023 00:05:28  info: Status :
+16-05-2023 00:05:04  info: Server running on port: 3333
+16-05-2023 00:05:64  info: Connected to database!
+16-05-2023 00:05:31  info: Server running on port: 3333
+16-05-2023 00:05:22  info: GET /users/all
+16-05-2023 00:05:92  info: Connected to database!
+16-05-2023 00:05:12  info: StatusCode : 200
+16-05-2023 00:05:56  info: Server running on port: 3333
+16-05-2023 00:05:96  info: Connected to database!
+16-05-2023 00:05:47  info: Server running on port: 3333
+16-05-2023 00:05:89  info: Connected to database!
+16-05-2023 00:05:72  info: Server running on port: 3333
+16-05-2023 00:05:20  info: Connected to database!
+16-05-2023 00:05:67  info: Server running on port: 3333
+16-05-2023 00:05:05  info: Connected to database!
+16-05-2023 00:05:13  info: GET /users/all
+16-05-2023 00:05:26  info: Server running on port: 3333
+16-05-2023 00:05:68  info: Connected to database!
+16-05-2023 00:05:85  info: GET /users/all
+16-05-2023 00:05:90  info: StatusCode : 200
+16-05-2023 00:05:71  info: Server running on port: 3333
+16-05-2023 00:05:11  info: Connected to database!
+16-05-2023 00:05:95  info: GET /users/all
+16-05-2023 00:05:99  info: StatusCode : 200
+16-05-2023 00:05:22  info: Server running on port: 3333
+16-05-2023 00:05:86  info: Connected to database!
+16-05-2023 00:05:56  info: Server running on port: 3333
+16-05-2023 00:05:16  info: Connected to database!
+16-05-2023 00:05:04  info: Server running on port: 3333
+16-05-2023 00:05:45  info: Connected to database!
+16-05-2023 00:05:75  info: GET /users/all
+16-05-2023 00:05:81  info: StatusCode : 200
+16-05-2023 00:05:95  info: GET /users/all
+16-05-2023 00:05:00  info: StatusCode : 200
+16-05-2023 00:05:07  info: GET /announcements/
+16-05-2023 00:05:08  info: StatusCode : 401
+16-05-2023 00:05:38  info: Server running on port: 3333
+16-05-2023 00:05:98  info: Connected to database!
+16-05-2023 00:05:14  info: GET /announcements/
+16-05-2023 00:05:15  info: StatusCode : 401
+16-05-2023 00:05:15  error: Message : 
+16-05-2023 00:05:07  info: Server running on port: 3333
+16-05-2023 00:05:63  info: Connected to database!
+16-05-2023 00:05:58  info: GET /announcements/
+16-05-2023 00:05:59  info: StatusCode : 401
+16-05-2023 00:05:59  error: [object Object]
+16-05-2023 00:05:83  info: Server running on port: 3333
+16-05-2023 00:05:25  info: Connected to database!
+16-05-2023 00:05:64  info: Server running on port: 3333
+16-05-2023 00:05:13  info: Connected to database!
+16-05-2023 00:05:26  info: GET /announcements/
+16-05-2023 00:05:26  info: StatusCode : 401
+16-05-2023 00:05:26  error: Message : undefined
+16-05-2023 01:05:05  info: Server running on port: 3333
+16-05-2023 01:05:06  info: Connected to database!
+16-05-2023 01:05:10  info: Server running on port: 3333
+16-05-2023 01:05:81  info: Connected to database!
+16-05-2023 01:05:67  info: Server running on port: 3333
+16-05-2023 01:05:40  info: Connected to database!
+16-05-2023 01:05:22  info: GET /announcements/
+16-05-2023 01:05:01  info: Server running on port: 3333
+16-05-2023 01:05:47  info: Connected to database!
+16-05-2023 01:05:60  info: GET /announcements/
+16-05-2023 01:05:18  info: Server running on port: 3333
+16-05-2023 01:05:55  info: Connected to database!
+16-05-2023 01:05:90  info: GET /announcements/
+16-05-2023 01:05:27  info: Server running on port: 3333
+16-05-2023 01:05:62  info: Connected to database!
+16-05-2023 01:05:27  info: GET /announcements/
+16-05-2023 01:05:29  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:33  info: Response Status:
+16-05-2023 01:05:34  info: Response Body:
+16-05-2023 01:05:30  info: Server running on port: 3333
+16-05-2023 01:05:83  info: Connected to database!
+16-05-2023 01:05:58  info: Server running on port: 3333
+16-05-2023 01:05:10  info: Connected to database!
+16-05-2023 01:05:04  info: Server running on port: 3333
+16-05-2023 01:05:55  info: Connected to database!
+16-05-2023 01:05:99  info: GET /announcements/
+16-05-2023 01:05:01  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:06  info: Response Status:
+16-05-2023 01:05:74  info: Server running on port: 3333
+16-05-2023 01:05:20  info: Connected to database!
+16-05-2023 01:05:19  info: GET /announcements/
+16-05-2023 01:05:20  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:25  info: StatusCode : 200
+16-05-2023 01:05:56  info: GET /announcements/
+16-05-2023 01:05:57  info: StatusCode : 401
+16-05-2023 01:05:57  error: Message : undefined
+16-05-2023 01:05:75  info: Server running on port: 3333
+16-05-2023 01:05:23  info: Connected to database!
+16-05-2023 01:05:26  info: GET /announcements/
+16-05-2023 01:05:27  info: StatusCode : 401
+16-05-2023 01:05:27  error: Message : undefined
+16-05-2023 01:05:77  info: Server running on port: 3333
+16-05-2023 01:05:30  info: Connected to database!
+16-05-2023 01:05:74  info: GET /announcements/
+16-05-2023 01:05:74  info: StatusCode : 401
+16-05-2023 01:05:75  error: Message : undefined
+16-05-2023 01:05:55  info: GET /announcements/
+16-05-2023 01:05:56  info: StatusCode : 401
+16-05-2023 01:05:56  error: Message : undefined
+16-05-2023 01:05:72  info: Server running on port: 3333
+16-05-2023 01:05:50  info: Connected to database!
+16-05-2023 01:05:98  info: GET /announcements/
+16-05-2023 01:05:99  info: StatusCode : 401
+16-05-2023 01:05:100  error: Message : [object Object]
+16-05-2023 01:05:37  info: Server running on port: 3333
+16-05-2023 01:05:18  info: Connected to database!
+16-05-2023 01:05:69  info: GET /announcements/
+16-05-2023 01:05:70  info: StatusCode : 401
+16-05-2023 01:05:70  error: Message : Token is null!
+16-05-2023 01:05:91  info: Server running on port: 3333
+16-05-2023 01:05:54  info: Connected to database!
+16-05-2023 01:05:85  info: Server running on port: 3333
+16-05-2023 01:05:46  info: Connected to database!
+16-05-2023 01:05:26  info: GET /announcements/
+16-05-2023 01:05:27  info: StatusCode : 401
+16-05-2023 01:05:27  error: Message : Token is null!
+16-05-2023 01:05:47  info: Server running on port: 3333
+16-05-2023 01:05:03  info: Connected to database!
+16-05-2023 01:05:80  info: GET /announcements/
+16-05-2023 01:05:19  info: Server running on port: 3333
+16-05-2023 01:05:66  info: Connected to database!
+16-05-2023 01:05:96  info: GET /announcements/
+16-05-2023 01:05:30  info: Server running on port: 3333
+16-05-2023 01:05:75  info: Connected to database!
+16-05-2023 01:05:23  info: GET /announcements/
+16-05-2023 01:05:23  info: StatusCode : 401
+16-05-2023 01:05:23  error: Message : Token is null!
+16-05-2023 01:05:24  info: GET /opportunities/64467f037ebde0b63a7a64a0
+16-05-2023 01:05:25  info: StatusCode : 401
+16-05-2023 01:05:25  error: Message : Token is null!
+16-05-2023 01:05:24  info: GET /announcements/
+16-05-2023 01:05:25  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:29  info: StatusCode : 200
+16-05-2023 01:05:37  info: Server running on port: 3333
+16-05-2023 01:05:88  info: Connected to database!
+16-05-2023 01:05:00  info: Server running on port: 3333
+16-05-2023 01:05:46  info: Connected to database!
+16-05-2023 01:05:23  info: GET /announcements/
+16-05-2023 01:05:26  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:30  info: StatusCode : 200
+16-05-2023 01:05:54  info: GET /announcements/
+16-05-2023 01:05:55  info: StatusCode : 401
+16-05-2023 01:05:55  error: Message : Token is null!
+16-05-2023 01:05:59  info: StatusCode : 200
+16-05-2023 01:05:59  error: Message : undefined
+16-05-2023 01:05:38  info: Server running on port: 3333
+16-05-2023 01:05:82  info: Connected to database!
+16-05-2023 01:05:22  info: GET /announcements/
+16-05-2023 01:05:23  info: StatusCode : 401
+16-05-2023 01:05:23  error: Message : Token is null!
+16-05-2023 01:05:29  info: Server running on port: 3333
+16-05-2023 01:05:70  info: Connected to database!
+16-05-2023 01:05:33  info: GET /announcements/
+16-05-2023 01:05:34  info: StatusCode : 401
+16-05-2023 01:05:34  error: Message : "Token is null!"
+16-05-2023 01:05:72  info: Server running on port: 3333
+16-05-2023 01:05:12  info: Connected to database!
+16-05-2023 01:05:55  info: GET /announcements/
+16-05-2023 01:05:56  info: StatusCode : 401
+16-05-2023 01:05:57  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:65  info: Server running on port: 3333
+16-05-2023 01:05:19  info: Connected to database!
+16-05-2023 01:05:36  info: Server running on port: 3333
+16-05-2023 01:05:71  info: Connected to database!
+16-05-2023 01:05:08  info: GET /announcements/
+16-05-2023 01:05:09  info: "Status: 401"
+16-05-2023 01:05:09  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:18  info: Server running on port: 3333
+16-05-2023 01:05:63  info: Connected to database!
+16-05-2023 01:05:80  info: GET /announcements/
+16-05-2023 01:05:81  info: {"Status":401}
+16-05-2023 01:05:81  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:31  info: Server running on port: 3333
+16-05-2023 01:05:70  info: Connected to database!
+16-05-2023 01:05:16  info: [object Object]
+16-05-2023 01:05:17  info: {"Status":401}
+16-05-2023 01:05:18  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:90  info: Server running on port: 3333
+16-05-2023 01:05:35  info: Connected to database!
+16-05-2023 01:05:05  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:05  info: {"Status":401}
+16-05-2023 01:05:05  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:64  info: Server running on port: 3333
+16-05-2023 01:05:08  info: Connected to database!
+16-05-2023 01:05:19  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:01  info: Server running on port: 3333
+16-05-2023 01:05:36  info: Connected to database!
+16-05-2023 01:05:09  info: Server running on port: 3333
+16-05-2023 01:05:45  info: Connected to database!
+16-05-2023 01:05:90  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:97  info: Server running on port: 3333
+16-05-2023 01:05:58  info: Connected to database!
+16-05-2023 01:05:17  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:11  info: Server running on port: 3333
+16-05-2023 01:05:51  info: Connected to database!
+16-05-2023 01:05:05  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:59  info: Server running on port: 3333
+16-05-2023 01:05:11  info: Connected to database!
+16-05-2023 01:05:36  info: Server running on port: 3333
+16-05-2023 01:05:75  info: Connected to database!
+16-05-2023 01:05:29  info: Server running on port: 3333
+16-05-2023 01:05:74  info: Connected to database!
+16-05-2023 01:05:16  info: Server running on port: 3333
+16-05-2023 01:05:67  info: Connected to database!
+16-05-2023 01:05:51  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:51  info: {"Status":401}
+16-05-2023 01:05:52  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:55  info: {"Status":200}
+16-05-2023 01:05:55  error: Message : []
+16-05-2023 01:05:61  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:63  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:67  info: {"Status":200}
+16-05-2023 01:05:13  info: Server running on port: 3333
+16-05-2023 01:05:68  info: Connected to database!
+16-05-2023 01:05:91  info: Server running on port: 3333
+16-05-2023 01:05:32  info: Connected to database!
+16-05-2023 01:05:24  info: Server running on port: 3333
+16-05-2023 01:05:66  info: Connected to database!
+16-05-2023 01:05:43  info: Server running on port: 3333
+16-05-2023 01:05:89  info: Connected to database!
+16-05-2023 01:05:07  info: Server running on port: 3333
+16-05-2023 01:05:48  info: Connected to database!
+16-05-2023 01:05:70  info: Server running on port: 3333
+16-05-2023 01:05:03  info: Connected to database!
+16-05-2023 01:05:41  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:42  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:46  info: {"Status":200}
+16-05-2023 01:05:23  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:97  info: Server running on port: 3333
+16-05-2023 01:05:46  info: Connected to database!
+16-05-2023 01:05:37  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:24  info: Server running on port: 3333
+16-05-2023 01:05:72  info: Connected to database!
+16-05-2023 01:05:75  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:76  info: {"Status":401}
+16-05-2023 01:05:76  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:43  info: {"Method":"GET","Url":"/opportunities/all"}
+16-05-2023 01:05:43  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:49  info: {"Status":200}
+16-05-2023 01:05:32  info: {"Method":"GET","Url":"/announcements/class/General"}
+16-05-2023 01:05:33  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:36  info: {"Status":200}
+16-05-2023 01:05:73  info: {"Method":"GET","Url":"/opportunities/all"}
+16-05-2023 01:05:73  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:77  info: {"Status":200}
+16-05-2023 01:05:61  info: {"Method":"GET","Url":"/discussion-forum/questions/General"}
+16-05-2023 01:05:61  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:64  info: {"Status":200}
+16-05-2023 01:05:40  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:40  info: {"Status":401}
+16-05-2023 01:05:40  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:57  info: Server running on port: 3333
+16-05-2023 01:05:14  info: Connected to database!
+16-05-2023 01:05:73  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:74  info: {"Method":"GET","Url":"/announcements/","Status":401}
+16-05-2023 01:05:75  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:60  info: {"Method":"GET","Url":"/announcements/"}
+16-05-2023 01:05:60  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:64  info: {"Method":"GET","Url":"/announcements/","Status":200}
+16-05-2023 01:05:64  info: Server running on port: 3333
+16-05-2023 01:05:06  info: Connected to database!
+16-05-2023 01:05:35  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:40  info: {"Method":"GET","Url":"/announcements/","Status":200}
+16-05-2023 01:05:08  info: {"Method":"GET","Url":"/announcements/","Status":401}
+16-05-2023 01:05:08  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:06  info: Server running on port: 3333
+16-05-2023 01:05:61  info: Connected to database!
+16-05-2023 01:05:77  info: {"Method":"GET","Url":"/announcements/","Status":401}
+16-05-2023 01:05:77  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:08  info: Server running on port: 3333
+16-05-2023 01:05:58  info: Connected to database!
+16-05-2023 01:05:77  info: {"Method":"GET","Url":"/announcements/","Status":401}
+16-05-2023 01:05:77  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:45  info: Server running on port: 3333
+16-05-2023 01:05:89  info: Connected to database!
+16-05-2023 01:05:81  info: {"Method":"GET","Url":"/announcements/","Status":401}
+16-05-2023 01:05:81  error: Message : {"error":"Error","message":"Token is null!"}
+16-05-2023 01:05:27  info: User : faculty@iiitb.ac.in
+16-05-2023 01:05:32  info: {"Method":"GET","Url":"/announcements/","Status":200}
