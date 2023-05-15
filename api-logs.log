@@ -83,3 +83,5 @@
 12-05-2023 18:05:83  info: GET /announcements/class/DT
 12-05-2023 18:05:74  info: GET /announcements/class/HOSTEL
 12-05-2023 18:05:22  info: GET /announcements/class/General
+15-05-2023 17:05:19  info: Server running on port: 3333
+15-05-2023 17:05:57  info: Connected to database!
