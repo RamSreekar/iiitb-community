@@ -58,6 +58,7 @@ jobs:
           cache: 'npm'
 
       - run: npm install
+      - run : npm install jest --save-dev
       - run: npm test
   build-push-docker-Image:
     needs: [ build,test ]
