@@ -4,7 +4,7 @@ const app = express();
 const logger = require("./logger/index");
 
 const corsHeaders = require("./middlewares/CorsMiddleware");
-const urlLogger = require("./middlewares/UrlLoggingMiddleware");
+const loggingMiddleware = require("./middlewares/UrlLoggingMiddleware");
 
 const cookieParser = require('cookie-parser');
 const authController = require('./controllers/AuthController')
@@ -13,7 +13,8 @@ const authController = require('./controllers/AuthController')
 // Middleware
 app.use(express.json());
 app.use(corsHeaders);
-app.use(urlLogger);
+// app.use(urlLogger);
+app.use(loggingMiddleware.postApiCallLogger);
 app.use(cookieParser());
 // app.use(jwtHelper.validateToken);
 
@@ -32,8 +33,7 @@ const opportunityRouter = require("./routes/OpportunityRoutes");
 app.use("/opportunities", authController.validateToken, opportunityRouter);
 
 const discussionForumRouter = require("./routes/DiscussionForumRoutes");
-app.use("/discussion-forum", discussionForumRouter)
-
+app.use("/discussion-forum", authController.validateToken, discussionForumRouter)
 app.get("", (request, response) => {
     response.status(200).send("<h1>Server!</h1>")
 })
@@ -42,5 +42,5 @@ app.get("", (request, response) => {
 const port = 3333;
 
 app.listen(port, () => {
-    logger.info(`Server running on port: ${port}`);
-}) 
+    // logger.info(`Server running on port: ${port}`);
+})

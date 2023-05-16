@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-
+const logger = require('../logger/index');
 require("dotenv").config();
 
 exports.generateToken = (userEmail) => {
@@ -26,13 +26,14 @@ exports.validateToken = async (req) => {
             return;
         }
 
-        jwt.verify(token, process.env.JWT_SECRET, (err) => {
+        jwt.verify(token, process.env.JWT_SECRET, (err, decodedToken) => {
             if(err) {
                 const error = new Error("Token is invalid or malformed!");
                 error.statusCode = 401;
                 reject(error);
                 return;
             }
+            // logger.info("User : " + decodedToken.email);
         });
         
         resolve({ "message" : "Token validation successful!" });
